@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    width: 1855px;
+    height: 1573px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#logo {
+    width: 85px;
+    height: 25px;
+    margin-top: 64px;
+    margin-left: 85px;
+    padding: 0px 9px 5px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+a {
+    color: #FFFFFF;
+    width: 105px;
+    height: 25px;
+    top: 2px;
+    left: 702px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 18px;
+    /* font-weight: 600; */
+    line-height: 24.51px;
+    text-decoration: none;
+}
