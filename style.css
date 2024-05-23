@@ -1,38 +1,138 @@
+@font-face {
+    font-family: "Pios";
+    src: url("fonts/fonnts.com-Larken_Regular.otf");
+}
+
+@font-face {
+    font-family: "Pios-m";
+    src: url("fonts/fonnts.com-Larken_Medium.otf");
+}
+
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
 }
 
 header {
-    background-image: url("./img/Background.png");
-    background-repeat: no-repeat;
-    width: 1855px;
-    height: 1573px;
-    gap: 0px;
-    opacity: 0px;
+    display: flex;
+    height: 1007px;
 }
 
-#logo {
-    width: 85px;
-    height: 25px;
-    margin-top: 64px;
-    margin-left: 85px;
-    padding: 0px 9px 5px 0px;
+.left {
+    width: 849px;
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.menu {
+    display: flex;
+    gap: 182.5px;
+    align-items: center;
+}
+
+
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    background-image: url("./img/pat1pg.png");
+    width: 1071px;
+    height: 100%;
+    left: 849px;
     gap: 0px;
     opacity: 0px;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+#log {
+    width: 100px;
+    height: 47px;
+}
+
+ul {
+    display: flex;
+    gap: 35px;
 }
 
 a {
-    color: #FFFFFF;
-    width: 105px;
-    height: 25px;
-    top: 2px;
-    left: 702px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Open Sans;
-    font-size: 18px;
-    /* font-weight: 600; */
-    line-height: 24.51px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: right;
     text-decoration: none;
+    color: #ABAEB7;
+
+}
+
+.contact {
+    padding: 15px 30px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.title {
+    width: 680px;
+    height: 457px;
+
+}
+
+h3 {
+    color: #FFC978;
+    font-family: Pios-m;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.96px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    font-family: Pios;
+    font-size: 84px;
+    font-weight: 400;
+    line-height: 94px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 534px;
+    color: #ABAEB7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.title-b {
+    padding: 20px 35px ;
+    border: 1px solid white;
+    opacity: 0px;
+    color: white;
+    background-color: transparent;
+    font-family: Roboto;
+
 }
