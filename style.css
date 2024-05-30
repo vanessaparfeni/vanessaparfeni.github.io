@@ -15,7 +15,9 @@
 }
 
 body {
-    background-color: black;
+    background-image: url("img/fon.png");
+    background-color: #0B0E17;
+    background-blend-mode: unset;
 
 }
 
@@ -31,7 +33,7 @@ header {
     padding-left: 100px;
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    justify-content: space-between;
 }
 
 .menu {
@@ -128,11 +130,68 @@ p {
 }
 
 .title-b {
-    padding: 20px 35px ;
+    padding: 20px 35px;
     border: 1px solid white;
     opacity: 0px;
     color: white;
     background-color: transparent;
     font-family: Roboto;
+}
 
+main {
+    display: flex;
+    height: 1007px;
+}
+
+#block2 {
+    color: #FFC978;
+    font-family: Pios-m;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.96px;
+    letter-spacing: 0.3em;
+}
+
+#block-2 {
+    font-family: Pios;
+    width: 500px;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 77.1px;
+}
+
+
+
+.inter {
+    margin-left: -100px;
+    display: flex;
+}
+
+#one , #four {
+    width: 300px;
+    height: 500px;
+    margin-top: -150px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.kart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.topser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+#two , #three {
+    margin-top: 52px;
 }
