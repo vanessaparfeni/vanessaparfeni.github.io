@@ -21,6 +21,7 @@ body {
 
 }
 
+/* <!-- --------------------HEADER-------------------- --> */
 header {
     display: flex;
     height: 1007px;
@@ -127,6 +128,7 @@ p {
     line-height: 33px;
     text-align: left;
     margin-bottom: 50px;
+
 }
 
 .title-b {
@@ -138,6 +140,7 @@ p {
     font-family: Roboto;
 }
 
+/* <!-- --------------------MAIN-------------------- --> */
 main {
     display: flex;
     height: 1007px;
@@ -168,7 +171,8 @@ main {
     display: flex;
 }
 
-#one , #four {
+#one,
+#four {
     width: 300px;
     height: 500px;
     margin-top: -150px;
@@ -190,8 +194,85 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 120px;
+    background-image: url(img/design.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: fit-content;
+    padding-bottom: 50px;
 }
 
-#two , #three {
+#two,
+#three {
     margin-top: 52px;
 }
+
+#block3 {
+    width: 241px;
+    height: 77px;
+    margin-left: 315px;
+    font-family: Pios;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 77.1px;
+    text-align: left;
+
+}
+
+.linie {
+    background-image: url(img/linie.png);
+    background-repeat: no-repeat;
+    width: 2px;
+    height: 150px;
+    margin-left: 393px;
+}
+
+.pp {
+    width: 440px;
+    height: 104px;
+    margin-left: 42px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ABAEB7;
+}
+
+.unu {
+    width: 192px;
+    height: 120px;
+    top: 2212px;
+    margin-left: 315px;
+    font-family: Pios;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 164.48px;
+
+}
+
+span {
+    font-family: Pios;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 82.24px;
+    text-align: left;
+
+}
+
+.doi {
+    width: 78px;
+    height: 60px;
+    margin-top: -70px;
+    margin-left: 551px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: white;
+
+}
+
+/* .procente {
+    width: 100%;
+} */
