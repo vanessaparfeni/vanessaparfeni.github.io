@@ -67,6 +67,7 @@ header {
 ul {
     display: flex;
     gap: 35px;
+    list-style-type: none;
 }
 
 a {
@@ -206,6 +207,13 @@ main {
     margin-top: 52px;
 }
 
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
 #block3 {
     width: 241px;
     height: 77px;
@@ -273,6 +281,23 @@ span {
 
 }
 
-/* .procente {
+/* .abpoze {
     width: 100%;
 } */
+
+#abp {
+    width: 300px;
+    height: 500px;
+    margin-left: 975px;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+#abp2 {
+    width: 300px;
+    height: 500px;
+    margin-left: 1305px;
+    margin-top: auto;
+    align-self: flex-start;
+
+}
